@@ -8,6 +8,9 @@ read -s password
 # Update repositories
 sudo apt update -y
 
+# install iptables
+apt-get install iptables
+
 # Install dante-server
 sudo apt install dante-server -y
 
